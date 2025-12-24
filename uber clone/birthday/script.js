@@ -586,10 +586,10 @@ const secondsEl = document.getElementById('seconds');
 
 // Target Date: PAST (Unlock Immediately) - For Development
 // const birthdayDate = new Date('December 28, 2024 00:00:00').getTime();
-// const birthdayDate = new Date('December 28, 2025 00:00:00').getTime();
+const birthdayDate = new Date('December 28, 2025 00:00:00').getTime();
 
 // TEST MODE: 1 Minute from now
-const birthdayDate = new Date().getTime() + 60000;
+// const birthdayDate = new Date().getTime() + 60000;
 
 function updateCountdown() {
     const now = new Date().getTime();
